@@ -1,0 +1,47 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Personal footage and recordings
+recordings/
+*.mp4
+*.mov
+*.wav
+
+# Model weights (third-party; download or export locally, see README)
+models/
+*.pt
+*.onnx
+*.mlpackage/
+*.mlmodel
+
+# Generated outputs
+# printable marker PDFs + markers/README.md (`wallball markers` regenerates them)
+markers/
+# per-device lens calibration (`wallball lens` / `wallball calib-camera`)
+configs/camera.yaml
+# personal player settings
+configs/player.yaml
+# clicked-corner scene files for live capture, and next to clips and photos
+configs/scene_*.yaml
+*.scene.yaml
+# analysed strokes written by `wallball replay`
+*_session.json
+# `s` key in the live dashboard, `wallball mark` default output
+screenshot_*.png
+marked.png
+# ball-detector training labels and Ultralytics training runs
+data/
+runs/

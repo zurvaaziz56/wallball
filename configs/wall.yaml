@@ -1,0 +1,34 @@
+dictionary: DICT_4X4_50
+min_markers: 3
+min_span_m: 2.0
+max_reproj_px: 1.5
+practice_rect:
+  x0_m: 0.0
+  y0_m: 0.8
+  x1_m: 2.0
+  y1_m: 2.3
+markers:
+- id: 0
+  size_m: 0.4
+  x_m: -0.3
+  y_m: 2.7
+- id: 1
+  size_m: 0.4
+  x_m: 2.3
+  y_m: 2.7
+- id: 2
+  size_m: 0.2
+  x_m: -0.3
+  y_m: 1.9
+- id: 3
+  size_m: 0.2
+  x_m: 2.3
+  y_m: 1.9
+- id: 4
+  size_m: 0.2
+  x_m: -0.3
+  y_m: 1.1
+- id: 5
+  size_m: 0.2
+  x_m: 2.3
+  y_m: 1.1
